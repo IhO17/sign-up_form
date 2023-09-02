@@ -10,33 +10,52 @@
 
 .container,
 .logo,
-.form {
+.form,
+body {
     display: flex;
     justify-content: center;
 }
 
 .container {
-    
+    width: 80%;
 }
 
 .logo-bar {
-    background-color: rgba(0, 0, 0, 0.799);
+    background-color: rgba(0, 0, 0, 0.674);
     position: absolute;
-    top: 50px;
+    top: 200px;
+    height: 140px;
 
 }
 
 .title {
     font-family: titleFont;
     color: rgb(255, 255, 255);
+    font-size: 52px;
 }
-.picture {
-    width: 100%;
 
+.picture,
+.logo-bar,
+.left-side {
+    width: 600px;
+
+}
+
+.left-side {
+    margin-right: 50px;
 }
 
 .img-footer {
     position: absolute;
-    bottom: 100px;
-    color: aliceblue;
+    bottom: 30px;
+    left: 350px;
+    color: rgb(254, 254, 254);
+}
+
+.logo {
+    height: 130px;
+}
+
+.form {
+    background-color: rgb(130, 197, 255);
 }
