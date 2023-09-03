@@ -19,10 +19,14 @@ body {
     padding: 0;
 }
 
+body {
+    background-color: rgba(0, 0, 0, 0.881);
+}
+
 .container {
     width: 80%;
     height: 100vh;
-    
+    background-color: aliceblue;
 }
 
 .left-side {
@@ -64,7 +68,7 @@ body {
     color: rgb(251, 251, 251);
     width: 100%;
     text-align: center;
-    margin-top: 97%;
+    margin-top: 98%;
 
 }
 
@@ -93,11 +97,25 @@ body {
 }
 
 .button {
-    background-color: rgb(51, 101, 29);
+    background-color: rgb(72, 106, 58);
     font-size: 1.2rem;
     color: rgb(250, 253, 255);
     margin: 25px 0 30px 10px;
     width: 200px;
     height: 40px;
     border-radius: 5px;
+    
 }
+
+.button-text {
+    margin-left: 10px;
+    
+}
+
+.button-text a {
+    color: rgb(72, 106, 58);
+}
+
+a {
+    color: inherit;
+};
