@@ -80,10 +80,24 @@ body {
 }
 
 .text {
-    
+    font-size: 1.5rem;
+    max-width: 80%;
+    margin: 60px 0 25px 0;
+    font-weight: bold;
 }
 
 
 .form {
-    background-color: rgb(130, 197, 255);
+    background-color: rgb(164, 246, 87);
+    height: 30%;
+}
+
+.button {
+    background-color: rgb(51, 101, 29);
+    font-size: 1.2rem;
+    color: rgb(250, 253, 255);
+    margin: 25px 0 30px 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
 }
